@@ -1,5 +1,5 @@
 //your JS code here. If required.
-    <script>
+   
         // Function to get the browser name and version
         function getBrowserInfo() {
             var browserInfo = "Unknown";
@@ -37,7 +37,7 @@
         var browserInfo = getBrowserInfo();
         var browserInfoElement = document.getElementById("browser-info");
         browserInfoElement.textContent = "You are using " + browserInfo;
-    </script>
+   
 
 
     // window.onload = function() {
